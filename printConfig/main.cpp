@@ -2,6 +2,10 @@
 #include <wtsapi32.h>
 #pragma comment(lib,"wtsapi32")
 
+/* 
+* Project's purpose:
+* Contains the payload to spawn cmd.exe
+*/
 DWORD WINAPI Shell(LPVOID self)
 {
 	DWORD sessId = WTSGetActiveConsoleSessionId();

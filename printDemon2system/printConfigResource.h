@@ -1,7 +1,7 @@
 #pragma once
 
 /*
-* The payload's source is in printConfig project in the solution
+* The payload's source is in printConfig project
 * $ xxd -i printConfig.dll
 *
 * Description: x86-64 dll shellcode that spawns cmd as SYSTEM (duplicates the token and changes the Session id so it'll be an interactive console)
