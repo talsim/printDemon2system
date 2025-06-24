@@ -9,7 +9,7 @@ An example exploit of this vulnerability includes overwriting the *PrintConfig.d
   <div style="border: 1.5px solid #ccc; display: inline-block; padding: 4px;">
     <img src="/assets/printDemon2system.gif" alt="printDemon2system Exploit" width = 95% style="display: block; border: none;">
   </div>
-  <p style="margin-top: 5px;"><em>Exploiting PrintDemon for Privilege Escalation (CVE-2020-1048). Compiled with VS2022 and tested on Windows 10 version 1909 (build 18363.418)</em></p>
+  <p style="margin-top: 5px;"><em>Exploiting PrintDemon for Privilege Escalation (CVE-2020-1048). Compiled with VS2022 and tested on Windows 10 x64 version 1909 (build 18363.418)</em></p>
 </div>
 
 ### References
